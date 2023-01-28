@@ -1,0 +1,33 @@
+
+git
+- git is an open source distribution version control
+advantages of git:
+
+- possibility for rolleback since it stores all version
+
+
+git commands:
+
+- git init will initialize you current directory into a git repo
+
+- git status will show you the current state of  a file in a git repo
+
+- git add comand will add your file in a staging status 
+
+- git commit will save your code
+  - commit --amend will permint you to edit your most resent commit
+
+- git branch will show you all the branches in a spercific project
+  - git branch (name) will create a  branch
+
+- git checkout (name) will let you switch from one branch to another
+
+  - checkout -b (name) will let you create a branch and switch to it
+
+- git merge will permint you to merge 2 git branches 
+
+- git log will show you the logs within a project 
+ 
+- git push origin (name) will create a branch in github and push your code to it so you can use it to do a pull request
+
+- git revert (commit id) will allow you to revert your commit
